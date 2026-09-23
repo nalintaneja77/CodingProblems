@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ThreeSumClosest {
 
     public static int threeSumClosest(int[] nums, int target) {
-
+        //{-4,-1,1,2}
         Arrays.sort(nums);
 
         int closestSum = nums[0] + nums[1] + nums[2];
